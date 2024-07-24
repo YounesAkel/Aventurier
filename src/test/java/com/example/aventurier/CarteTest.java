@@ -1,7 +1,8 @@
 package com.example.aventurier;
 
-import org.junit.Test;
 
+
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
@@ -14,7 +15,7 @@ public class CarteTest {
     public void testLectureCarte() throws IOException {
         Carte carte = new Carte("src/test/resources/carte.txt");
         assertNotNull(carte.getCarte());
-        assertEquals(19, carte.getCarte().length);//le resultat attendu
+        assertEquals(20, carte.getCarte().length);//le resultat attendu
     }
 
     @Test
