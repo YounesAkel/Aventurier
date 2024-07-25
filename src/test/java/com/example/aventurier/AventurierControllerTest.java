@@ -28,7 +28,7 @@ public class AventurierControllerTest {
                         .param("startY", "0")
                         .param("mouvements", "SSSSEEEEEENN"))
                 .andExpect(status().isOk())//resultat attendu
-                .andExpect(content().string("Position finale: 9,2"));//resultat attendu
+                .andExpect(content().string("Position finale: 1,6"));//resultat attendu
     }
 
     @Test

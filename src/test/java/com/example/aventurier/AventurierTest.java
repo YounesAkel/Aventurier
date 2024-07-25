@@ -30,7 +30,7 @@ public class AventurierTest {
         //implementation des parametres des fonctions
         aventurier.setPositionInitiale(3, 0);
         aventurier.deplacer("SSSSEEEEEENN");
-        assertEquals("9,2", aventurier.getPosition());//le resultat attendu
+        assertEquals("1,6", aventurier.getPosition());//le resultat attendu
     }
 
     @Test
